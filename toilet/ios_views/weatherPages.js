@@ -8,7 +8,7 @@ import {
   View
 } from 'react-native';
 
-class weatherPages extends Component {
+class WeatherPages extends Component {
   render() {
     return (
       <Text style={styles.text}>
@@ -24,4 +24,4 @@ const styles = StyleSheet.create({
   }
 });
 
-module.exports = weatherPages;
+module.exports = WeatherPages;

@@ -8,7 +8,7 @@ import {
   View
 } from 'react-native';
 
-class readPages extends Component {
+class ReadPages extends Component {
   render() {
     return (
       <Text style={styles.text}>
@@ -24,4 +24,4 @@ const styles = StyleSheet.create({
   }
 });
 
-module.exports = readPages;
+module.exports = ReadPages;

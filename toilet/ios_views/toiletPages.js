@@ -8,20 +8,14 @@ import {
   View
 } from 'react-native';
 
-class toiletPages extends Component {
+import TWebView from './twebView'
+
+class ToiletPages extends Component {
   render() {
     return (
-      <Text style={styles.text}>
-        トイレ
-      </Text>
+      <TWebView url='https://www'/>
     );
   }
 }
 
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 40
-  }
-});
-
-module.exports = toiletPages;
+module.exports = ToiletPages;
